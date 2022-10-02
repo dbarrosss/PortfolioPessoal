@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+}
+
+.main-box {
+  height: 100%;
+  width: 100%;
+  /*
+  background-image: linear-gradient(
+    to bottom left,
+    #020829,
+    #030b4b,
+    #4e024e 80%
+  );
+  */
+  background-color: #131313;
+}
+
+.fundo-svg {
+  position: absolute;
+  height: 100%;
+  margin-left: 15%;
+  z-index: 1;
+}
+
+header {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.header-buttons {
+  margin-left: 55%;
+  position: absolute;
+  z-index: 2;
+}
+header a {
+  border: none;
+  margin-left: 15px;
+  background-color: transparent;
+  font-family: roboto;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  border-bottom: 2px solid #820233;
+}
+
+.name {
+  height: 200px;
+  width: 670px;
+  margin-top: 150px;
+  margin-left: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
+.name text {
+  color: white;
+  font-family: poppins;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.name span {
+  font-family: roboto;
+  /* color: #820233; */
+  color: #ca283f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+}
+/*
+
+img {
+  position: absolute;
+  margin-top: -2.5%;
+  margin-left: 35%;
+  z-index: 0;
+}
+
+*/

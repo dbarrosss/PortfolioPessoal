@@ -1,0 +1,101 @@
+.projects {
+  height: 100%;
+  width: 100%;
+  background-color: #131313;
+}
+
+.projects text {
+  font-family: poppins;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ca283f;
+  opacity: 70%;
+  margin-top: 5%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+.projects-presentation {
+  height: 70%;
+  width: 30%;
+  color: white;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  text-align: justify;
+  margin-top: 12%;
+  margin-left: 5%;
+}
+
+#grid {
+  float: right;
+  height: 80%;
+  width: 40%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+#box1 {
+  display: inline-flex;
+  height: 45%;
+  width: 40%;
+  border: 2px solid #820233;
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#box2 {
+  display: inline-flex;
+  height: 45%;
+  width: 50%;
+  border: 2px solid #820233;
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#box3 {
+  display: inline-flex;
+  height: 45%;
+  width: 50%;
+  border: 2px solid #820233;
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#box4 {
+  display: inline-flex;
+  height: 45%;
+  width: 40%;
+  border: 2px solid #820233;
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

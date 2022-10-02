@@ -1,0 +1,129 @@
+.contact {
+  height: 100%;
+  width: 100%;
+}
+
+.contact text {
+  font-family: poppins;
+  font-size: 150px;
+  color: #820233;
+  font-weight: bold;
+  opacity: 70%;
+  margin-left: 5%;
+}
+
+.contact-centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 100%;
+}
+
+.contact-header {
+  height: 10%;
+  width: 65%;
+  background-color: #131313;
+  position: absolute;
+  z-index: 2;
+  margin-top: -28%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+}
+
+.contact-header h3 {
+  text-align: center;
+}
+
+.contact-header text {
+  font-family: arial;
+  font-size: 15px;
+  color: white;
+  opacity: 100%;
+  font-weight: normal;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+.contact-header button {
+  float: right;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  background-color: #ca283f;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.contact-header button:hover {
+  transition-duration: 0.8s;
+  background-color: #820233;
+  cursor: pointer;
+}
+
+.contact-lines {
+  height: 38.5%;
+  width: 3%;
+  background-color: #131313;
+  position: absolute;
+  z-index: 1;
+  margin-top: -5%;
+  margin-left: -62%;
+  border-bottom-left-radius: 10px;
+  padding-top: 10px;
+}
+
+.contact-lines span {
+  color: gray;
+  margin-left: 45%;
+  font-size: 12px;
+}
+
+.contact textarea {
+  position: absolute;
+  resize: none;
+  background-color: #293134;
+  color: white;
+  border: none;
+  height: 40%;
+  width: 65%;
+  margin-top: -11.7%;
+  margin-left: -32.5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 4%;
+  padding-right: 10px;
+  outline: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+#line10 {
+  margin-left: 30%;
+}
+
+#line11 {
+  margin-left: 30%;
+}
+
+#line12 {
+  margin-left: 30%;
+}
+
+#line13 {
+  margin-left: 30%;
+}
+
+#line14 {
+  margin-left: 30%;
+}
+
+#line15 {
+  margin-left: 30%;
+}
